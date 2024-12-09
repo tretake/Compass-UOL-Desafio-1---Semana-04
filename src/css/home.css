@@ -1,9 +1,6 @@
 
 
-body {
-    display: flex;
-    flex-direction: column;
-}
+
 
 header {
     
@@ -17,23 +14,15 @@ header {
     padding: 20px;
     gap: 20px;
 
-    position: absolute;
+    
+    /*position: absolute;  causando um probleman onde fica por cima da seçao abaixo  */
     height: 80px;
     left: 0px;
     right: 0px;
     top: 0px;
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    z-index: 0;
-
-
 }
 
-main {
-    height: 200px;
-}
 
 .logo-1 {
     width: 50px;
@@ -41,9 +30,7 @@ main {
     
     background: url(logo.jpg);
     border-radius: 50px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    
 }
 
 .titulo {
@@ -107,65 +94,63 @@ main {
     line-height: 24px;
     color: #FCF4B6;
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    
 }
 
 
 footer {
-background: #331436;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 60px;
-gap: 60px;
-flex: none;
-order: 5;
-align-self: stretch;
-flex-grow: 0;
-z-index: 5;
-}
-
-
-footer .container {
+    background: #331436;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 60px;
     gap: 60px;
-
-
-    background: #331436;
-
     flex: none;
     order: 5;
     align-self: stretch;
     flex-grow: 0;
     z-index: 5;
-}
+    }
 
-.socials {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 60px;
-    gap: 60px;
+    footer .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+        gap: 60px;
     
     
-    background: #331436;
+        background: #331436;
     
-    flex: none;
-    order: 5;
-    align-self: stretch;
-    flex-grow: 0;
-    z-index: 5;
-    
-}
+        flex: none;
+        order: 5;
+        align-self: stretch;
+        flex-grow: 0;
+        z-index: 5;
+    }
+
+    .socials {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 60px;
+        gap: 60px;
+        
+        
+        background: #331436;
+        
+        flex: none;
+        order: 5;
+        align-self: stretch;
+        flex-grow: 0;
+        z-index: 5;
+        
+    }
 footer .container h1 {
     width: 392px;
     height: 100px;
@@ -182,17 +167,64 @@ footer .container h1 {
     
     color: #FFFFFF;
     
-    
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
 
 }
-/* 
 
 
 
-/* 
 
+
+
+
+.main-section {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 170px;
+    gap: 60px;
+    
+    
+    background: #7A1745;
+    
+    
+    
+    }
+.main-section .container {
+    
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+
+}
+
+.main-section img {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+}
+
+
+
+.main-section button {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 240px;
+    height: 48px;
+    
+    
+    background: #7A1745;
+}
 
