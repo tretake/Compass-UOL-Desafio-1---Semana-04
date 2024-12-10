@@ -576,3 +576,54 @@ height: 204px;
 }
 
 
+.section-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 170px;
+    gap: 60px;
+    isolation: isolate;
+}
+
+.section-4 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+}
+
+.section-4 .container h1 {
+
+    width: 520px;
+    height: 48px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    
+    color: #331436;
+}
+
+.section-4 .container p {
+    width: 520px;
+    height: 24px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    
+    color: #331436;
+    
+    
+
+}
+
