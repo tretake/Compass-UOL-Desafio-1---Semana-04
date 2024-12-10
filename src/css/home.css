@@ -202,6 +202,42 @@ gap: 24px;
 
 }
 
+.main-section .container h1 {
+    width: 520px;
+height: 48px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.main-section .container h1 strong {
+
+    color: #FCF4B6;
+}
+.main-section .container p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+width: 520px;
+height: 72px;
+    
+text-align: center;
+    
+color: #FFFFFF;
+
+}
+
 .main-section img {
 display: flex;
 flex-direction: column;
@@ -217,14 +253,21 @@ gap: 24px;
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
 
     width: 240px;
     height: 48px;
     
-    
-    background: #7A1745;
+    background: #CB4F57;
+    border-radius: 8px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCF4B6;
 }
 
