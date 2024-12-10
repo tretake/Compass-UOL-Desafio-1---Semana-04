@@ -421,3 +421,158 @@ border-radius: 6px;
 }
 
 
+.section-3 {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 60px 170px;
+gap: 60px;
+
+
+background: rgba(252, 244, 182, 0.5);
+}
+
+.section-3 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+}
+
+.section-3 .container h1 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+text-align: center;
+
+color: #331436;
+}
+
+.section-3 .container p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    
+    color: #331436;
+}
+
+.section-3 .container button {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px;
+
+width: 240px;
+height: 48px;
+
+background: #331436;
+border-radius: 8px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.section-3 ul {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    
+}
+
+.section-3 ul .row {
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+}
+
+
+.section-3 ul li {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    gap: 20px;
+    
+width: 245px;
+height: 204px;
+
+}
+.section-3 ul li .frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  
+    
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    min-height: 100px;
+    
+    background: #331436;
+    border-radius: 50px;
+}
+
+.section-3 ul li .frame img {
+    margin: 0 auto;
+    width: 48px;
+    height: 48px;
+}
+
+.section-3 ul li .text-content h1 {
+
+    width: 245px;
+    height: 28px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    text-align: center;
+    color: #331436;
+}
+
+.section-3 ul li .text-content p {
+    width: 245px;
+    height: 24px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    
+    color: #331436;
+}
+
+
