@@ -97,7 +97,7 @@ header {
     
 }
 
-
+/*preciso concertar as dimenções das socials*/
 footer {
     display: flex;
     flex-direction: row;
@@ -112,6 +112,8 @@ background: #331436;
 
 footer .socials {
     
+width: 136px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -119,11 +121,12 @@ footer .socials {
 }
 
 footer .socials .frame {
-    margin: 15px;
     width: 34px;
-    height: 34px;
-    background: #FFFFFF;
-    border-radius: 17px;
+}
+
+footer .socials img {
+    width: 34px;
+
 }
 
 footer .container {
