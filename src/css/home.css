@@ -271,3 +271,153 @@ gap: 24px;
     color: #FCF4B6;
 }
 
+.section-2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 170px;
+    gap: 60px;
+    isolation: isolate;
+}
+
+.section-2 .container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+}
+.section-2 .container h1 {
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #000000;
+}
+.section-2 .container p {
+
+    width: 1100px;
+    height: 48px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    color: #020000;
+}
+
+.section-2 .container button {
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px;
+    gap: 12px;
+    
+    width: 240px;
+    height: 48px;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #FFFFFF;
+
+background: #331436;
+border-radius: 8px;
+
+}
+
+
+.section-2 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+}
+.section-2 .row {
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;   
+}
+
+.section-2 .card {
+    
+box-sizing: border-box;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 340px;
+height: 420px;
+
+border: 1px solid #FFFFFF;
+border-radius: 6px;
+}
+
+.section-2 .card img {
+
+    width: 340px;
+    height: 340px;
+
+    background: rgba(217, 217, 217, 0.5);
+
+}
+.section-2 .card .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 4px;
+
+    width: 340px;
+    height: 80px;
+
+}
+.section-2 .card .text-content h1{
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+    
+    color: #331436;
+}
+
+.section-2 .card .text-content p {
+
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    
+    color: #331436;
+    
+}
+
+
