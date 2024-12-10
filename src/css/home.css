@@ -99,68 +99,50 @@ header {
 
 
 footer {
-    background: #331436;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 60px;
     gap: 60px;
-    flex: none;
-    order: 5;
-    align-self: stretch;
-    flex-grow: 0;
-    z-index: 5;
-    }
-
-
-    footer .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 60px;
-        gap: 60px;
     
     
-        background: #331436;
+background: #331436;
+    }
+
+footer .socials {
     
-        flex: none;
-        order: 5;
-        align-self: stretch;
-        flex-grow: 0;
-        z-index: 5;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-    .socials {
+}
 
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 60px;
-        gap: 60px;
-        
-        
-        background: #331436;
-        
-        flex: none;
-        order: 5;
-        align-self: stretch;
-        flex-grow: 0;
-        z-index: 5;
-        
-    }
+footer .socials .frame {
+    margin: 15px;
+    width: 34px;
+    height: 34px;
+    background: #FFFFFF;
+    border-radius: 17px;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+}
+
+
 footer .container h1 {
-    width: 392px;
-    height: 100px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    
+    /* or 140% */
     display: flex;
     align-items: center;
     text-align: center;
