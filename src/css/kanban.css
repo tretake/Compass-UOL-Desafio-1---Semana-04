@@ -1,0 +1,157 @@
+
+
+
+
+header {
+    
+    background: #331436;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);e;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+
+    
+    /*position: absolute;  causando um probleman onde fica por cima da seçao abaixo  */
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+}
+
+
+.logo-1 {
+    width: 50px;
+    height: 50px;
+    
+    background: url(logo.jpg);
+    border-radius: 50px;
+    
+}
+
+.titulo {
+    width: 1070px;
+    height: 36px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+
+    
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    
+    width: 240px;
+    height: 48px;
+    
+    background: #331436;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+}
+
+.header-nav button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    
+    width: 240px;
+    height: 48px;
+    
+    background: #CB4F57;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCF4B6;
+
+    
+}
+
+/*preciso concertar as dimenções das socials*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 60px;
+    
+    
+background: #331436;
+    }
+
+footer .socials {
+    
+width: 136px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+footer .socials .frame {
+    width: 34px;
+}
+
+footer .socials img {
+    width: 34px;
+
+}
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+}
+
+
+footer .container h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* or 140% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+
+}
+
