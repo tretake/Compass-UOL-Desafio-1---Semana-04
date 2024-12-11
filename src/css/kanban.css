@@ -163,6 +163,7 @@ footer .container h1 {
     padding: 60px 170px;
     gap: 60px;
     
+height: 746px;
     
     background: rgba(0, 0, 0, 0.1);
 }
@@ -257,13 +258,10 @@ height: 24px;
 
 }
 
-.priority {
-    box-sizing: border-box;
+.priority .status-high {
+
     
-}
-.priority .status {
-
-
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,9 +281,57 @@ height: 24px;
     
     width: 30px;
     height: 15px;
-    
-
 }
+.priority .status-mid {
+
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    /* identical to box height, or 240% */
+    
+color: #CB4F57;
+    background: #EB9961;
+    border: 1px solid #CB4F57;
+    border-radius: 8px;
+    
+    width: 30px;
+    height: 15px;
+}
+.priority .status-low {
+
+    
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    /* identical to box height, or 240% */
+    
+color: #EB9961;
+    background: #FCF4B6;
+    border: 1px solid #EB9961;
+    border-radius: 8px;
+    
+    width: 30px;
+    height: 15px;
+}
+
+
 
 
 .card-header .date {
@@ -305,7 +351,6 @@ height: 24px;
 
 .card-content {
 
-    width: 59px;
     height: 24px;
 
     font-family: 'Roboto';
