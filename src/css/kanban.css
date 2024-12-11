@@ -10,92 +10,38 @@ header {
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
 
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 0px 20px;
+    height: 80px;
     gap: 20px;
 
-    
-    /*position: absolute;  causando um probleman onde fica por cima da seçao abaixo  */
-    height: 80px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-
 }
 
 
-.logo-1 {
+
+header .logo-1 {
     width: 50px;
     height: 50px;
-    
-    background: url(logo.jpg);
-    border-radius: 50px;
-    
 }
 
-.titulo {
-    width: 1070px;
-    height: 36px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 36px;
-
-    
+header .titulo {
+    font: 400 28px/36px 'Roboto',sans-serif;    
     color: #FFFFFF;
-
-    flex: none;
-    order: 1;
     flex-grow: 1;
-
-
 }
 
-.header-nav {
+
+header .header-nav {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px;
     gap: 40px;
-    
-    
     background: #331436;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-
 }
 
-.header-nav button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-    
-    width: 240px;
-    height: 48px;
-    
-    background: #CB4F57;
-    border-radius: 8px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FCF4B6;
-
-    
-}
 
 .header-nav input {
 
@@ -117,7 +63,9 @@ line-height: 20px;
 border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 6px;
 
-background: #331436;
+
+background: url(assets\images\icons\search.png) no-repeat left;
+background-size: 20px;
 
 color: #FFFFFF;
 }
@@ -146,59 +94,34 @@ box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
 
 footer {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 60px;
     gap: 60px;
-    
-    
-background: #331436;
-    }
+    background: #331436;
+}
 
 footer .socials {
-    
-width: 136px;
-
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-
+    width: 136px;
 }
-
-footer .socials .frame {
-    width: 34px;
-}
-
 footer .socials img {
     width: 34px;
-
 }
-
 footer .container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 0px;
     gap: 60px;
 }
-
-
 footer .container h1 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    /* or 140% */
+    font: 400 20px/28px 'Roboto', sans-serif;
     display: flex;
     align-items: center;
     text-align: center;
-    
     color: #FFFFFF;
-    
-
 }
 
 .kanban {

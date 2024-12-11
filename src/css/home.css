@@ -14,10 +14,15 @@ header {
     height: 80px;
     gap: 20px;
 }
+
+
 header .logo-1 {
+    
     width: 50px;
     height: 50px;
 }
+
+
 
 header .titulo {
     font: 400 28px/36px 'Roboto',sans-serif;    
