@@ -1,5 +1,7 @@
 
-
+body {
+margin: 0;
+}
 
 
 header {
@@ -71,6 +73,10 @@ header {
 
 }
 
+a {
+    
+    text-decoration: none;
+}
 .header-nav button {
     display: flex;
     flex-direction: column;
@@ -97,7 +103,6 @@ header {
     
 }
 
-/*preciso concertar as dimenções das socials*/
 footer {
     display: flex;
     flex-direction: row;

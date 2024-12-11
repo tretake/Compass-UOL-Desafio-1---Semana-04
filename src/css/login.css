@@ -1,5 +1,7 @@
 
-
+body {
+    margin: 0;
+    }
 
 
 header {
@@ -22,7 +24,10 @@ header {
     top: 0px;
 
 }
+a {
+text-decoration: none;
 
+}
 
 .logo-1 {
     width: 50px;
