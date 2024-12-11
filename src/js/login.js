@@ -14,6 +14,8 @@ const ValidEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
 
 
+
+
 submit.addEventListener("click" , (event) => 
 {    
     let emailPass = false;
@@ -33,7 +35,10 @@ submit.addEventListener("click" , (event) =>
     if(password.value === "")
         passwordValidationMessage.innerHTML = "campo não preenchido";
     else
+    {
         passwordPass = true;
+        passwordValidationMessage.innerHTML = ""
+    }
 
     if(passwordPass && emailPass)
         window.location.href = "kanban.html"

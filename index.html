@@ -121,20 +121,23 @@
           <h1>Subscribe to Updates</h1>
           <p>Stay informed with our latest updates</p>
         </div>
-        <ul>
-          <li>
-            <label>Email</label>
-            <input type="email" placeholder="Enter your email" />
-            <span>We promise not to spam </span>
-          </li>
+        <form id="login">
+          <ul>
+            <li>
+              <label>Email</label>
+              <input type="text" id="mail" placeholder="Enter your email" />
+              <span id="email-validation-message">We promise not to spam </span>
+            </li>
 
-          <li>
-            <label>Name</label
-            ><input type="text" placeholder="Enter your name" />
-          </li>
+            <li>
+              <label>Name</label
+              ><input type="text" id="name" placeholder="Enter your name" />
+              <span id="name-validation-message"></span>
+            </li>
 
-          <li><button>Subscribe</button></li>
-        </ul>
+            <li><button id="submit">Subscribe</button></li>
+          </ul>
+        </form>
       </div>
     </main>
     <footer>
@@ -162,5 +165,7 @@
         <h1>Terms of Service</h1>
       </div>
     </footer>
+
+    <script src="src/js/main.js"></script>
   </body>
 </html>
