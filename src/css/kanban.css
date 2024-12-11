@@ -5,7 +5,7 @@
 header {
     
     background: #331436;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);e;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
 
     display: flex;
     flex-direction: row;
@@ -97,7 +97,6 @@ header {
     
 }
 
-/*preciso concertar as dimenções das socials*/
 footer {
     display: flex;
     flex-direction: row;
@@ -155,3 +154,223 @@ footer .container h1 {
 
 }
 
+.kanban {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 170px;
+    gap: 60px;
+    
+    
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.col-title{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    
+    color: #331436;
+
+}
+.todo-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    
+    width: 240px;
+    min-width: 240px;
+    height: 626px;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+
+}
+
+.inprogress-col {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 10px;
+    
+    width: 240px;
+    min-width: 240px;
+    height: 626px;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.complete-col {
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 10px;
+
+width: 240px;
+min-width: 240px;
+height: 626px;
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    
+    
+    background: #F8F2FF;
+    border: 1px solid #331436;
+    border-radius: 8px;
+}
+
+.card-header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+
+    
+width: 200px;
+height: 24px;
+
+
+}
+
+.priority {
+    box-sizing: border-box;
+    
+}
+.priority .status {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    /* identical to box height, or 240% */
+    
+    color: #7A1745;
+    background: #CB4F57;
+    border: 1px solid #7A1745;
+    border-radius: 8px;
+    
+    width: 30px;
+    height: 15px;
+    
+
+}
+
+
+.card-header .date {
+
+    width: 46px;
+    height: 24px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    /* identical to box height, or 240% */
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.card-content {
+
+    width: 59px;
+    height: 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+    color: #331436;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 5px;
+    
+    width: 200px;
+    height: 39px;
+}
+
+.card-footer .users {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 2px;
+}
+.card-footer .users .user {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    
+    width: 25px;
+    height: 25px;
+    
+    background: #801E8F;
+    border-radius: 50px;
+}
+.card-footer .users .user .initials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 9px;
+    height: 24px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 24px;
+    /* identical to box height, or 240% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+
+}
