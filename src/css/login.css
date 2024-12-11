@@ -7,21 +7,14 @@ body {
 header {
     
     background: #331436;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);e;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
 
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px;
     gap: 20px;
-
-    
-    /*position: absolute;  causando um probleman onde fica por cima da seçao abaixo  */
-    height: 80px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
 
 }
 a {
@@ -33,14 +26,10 @@ text-decoration: none;
     width: 50px;
     height: 50px;
     
-    background: url(logo.jpg);
-    border-radius: 50px;
     
 }
 
 .titulo {
-    width: 1070px;
-    height: 36px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -50,9 +39,7 @@ text-decoration: none;
 
     
     color: #FFFFFF;
-
     flex: none;
-    order: 1;
     flex-grow: 1;
 
 
@@ -69,40 +56,9 @@ text-decoration: none;
     width: 240px;
     height: 48px;
     
-    background: #331436;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
 
 }
 
-.header-nav button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-    
-    width: 240px;
-    height: 48px;
-    
-    background: #CB4F57;
-    border-radius: 8px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FCF4B6;
-
-    
-}
-
-/*preciso concertar as dimenções das socials*/
 footer {
     display: flex;
     flex-direction: row;
@@ -170,8 +126,6 @@ align-items: center;
 padding: 60px 170px;
 gap: 60px;
 
-width: 1440px;
-height: 600px;
 min-height: 600px;
 }
 
@@ -182,22 +136,16 @@ min-height: 600px;
     padding: 0px;
     gap: 24px;
 
-    width: 520px;
-    height: 96px;
 
 }
 
 .login-section .container h1 {
 
-    width: 520px;
-    height: 48px;
-    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    /* identical to box height, or 120% */
     
     color: #331436;
 }
@@ -211,7 +159,6 @@ min-height: 600px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
     
     color: #331436;
 }
@@ -225,8 +172,6 @@ min-height: 600px;
     padding: 0px;
     gap: 40px;
     
-    width: 520px;
-    height: 268px;
 }
 
 .login-section ul li {
@@ -240,8 +185,6 @@ gap: 4px;
 
 .login-section ul li label {
 
-width: 520px;
-height: 20px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -298,8 +241,6 @@ color: rgba(0, 0, 0, 0.5);
 
     gap: 12px;
 
-    width: 240px;
-    height: 48px;
 
     display: flex;
     flex-direction: column;
