@@ -42,9 +42,9 @@ submit.addEventListener("click" , (event) =>
 
         if(namePass && emailPass)
         {
-            LocalStorage.userName = userName.value;
-            LocalStorage.userEmail = email.value;
-            console.log(LocalStorage);
+            localStorage.setItem('userName',userName.value);
+            localStorage.setItem('UserEmail', email.value);
+            console.log(localStorage);
         }
 
 })

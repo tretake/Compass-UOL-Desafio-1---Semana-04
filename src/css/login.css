@@ -6,8 +6,6 @@ body{
 }
 
 
-
-
 .login-section {
     display: flex;
     flex-direction: row;
@@ -19,6 +17,7 @@ body{
 
     flex-grow: 1;
 }
+
 @media (max-width: 768px) {
     .login-section{
         flex-direction: column;
