@@ -1,7 +1,6 @@
 body {
 margin: 0;
 }
-
 header {
     background: #331436;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
@@ -23,7 +22,6 @@ header .titulo {
     color: #FFFFFF;
     flex-grow: 1;
 }
-
 header .header-nav {
     display: flex;
     justify-content: center;
@@ -46,6 +44,7 @@ a {
     background: #CB4F57;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 
     color: #FCF4B6;    
 }
@@ -83,11 +82,6 @@ footer .container h1 {
 }
 
 
-
-
-
-
-
 .main-section {
     display: flex;
     justify-content: center;
@@ -120,11 +114,11 @@ gap: 24px;
     color: #FFFFFF;
 }
 .main-section img {
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
 }
 .main-section button {
     font: 500 16px/24px 'Roboto',sans-serif;
@@ -137,9 +131,8 @@ gap: 24px;
     border-radius: 8px;
     border: none;
     color: #FCF4B6;
+    cursor: pointer;
 }
-
-
 .section-2 {
     display: flex;
     flex-direction: column;
@@ -148,7 +141,6 @@ gap: 24px;
     padding: 60px 170px;
     gap: 60px;
 }
-
 .section-2 .container {
     display: flex;
     flex-direction: column;
@@ -178,7 +170,8 @@ gap: 24px;
     color: #FFFFFF;
     background: #331436;
     border-radius: 8px;
-    border:none
+    border:none;
+    cursor: pointer;
 
 }
 .section-2 ul {
@@ -195,6 +188,8 @@ gap: 24px;
     gap: 40px;   
 }
 .section-2 .card {
+    
+    transition: transform 0.3s ease;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -206,6 +201,10 @@ gap: 24px;
 
     border: 1px solid #FFFFFF;
     border-radius: 6px;
+
+}
+.section-2 .card:hover {
+    transform: scale(1.1);
 }
 .section-2 .card img {
     width: 340px;
@@ -274,7 +273,7 @@ height: 48px;
 background: #331436;
 border-radius: 8px;
 border:none;
-
+cursor: pointer;
 color: #FFFFFF;
 }
 .section-3 ul {
@@ -300,7 +299,16 @@ gap: 40px;
     gap: 20px;
     width: 245px;
     height: 204px;
+
+
+    transition: transform 0.4s ease,  border 0.4s ease ;
+    border: 2px solid transparent;
 }
+.section-3 ul li:hover {
+    transform: scale(1.1);
+    border: 2px solid #333; 
+}
+
 .section-3 ul li .frame {
     display: flex;
     justify-content: space-between;
@@ -311,7 +319,11 @@ gap: 40px;
     min-height: 100px;
     background: #331436;
     border-radius: 50px;
+
+    
 }
+
+
 .section-3 ul li .frame img {
     margin: 0 auto;
     width: 48px;
@@ -421,5 +433,9 @@ color: #331436;
     background: #331436;
     border-radius: 8px;
     border: none;
-    
+    cursor: pointer;
 }
+
+button:hover {
+    background-color: #ff9844; 
+  }
