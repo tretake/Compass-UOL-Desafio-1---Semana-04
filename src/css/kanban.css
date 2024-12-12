@@ -77,6 +77,8 @@ header .header-nav img{
 }
 
 footer {
+    box-sizing: border-box;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -2,7 +2,6 @@ body {
 margin: 0;
 }
 
-
 header {
     background: #331436;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
@@ -14,16 +13,11 @@ header {
     height: 80px;
     gap: 20px;
 }
-
-
 header .logo-1 {
     
     width: 50px;
     height: 50px;
 }
-
-
-
 header .titulo {
     font: 400 28px/36px 'Roboto',sans-serif;    
     color: #FFFFFF;
@@ -43,11 +37,7 @@ a {
 }
 .header-nav button {
     font: 500 16px/24px 'Roboto', sans-serif;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 12px;
     
     width: 240px;
@@ -59,8 +49,9 @@ a {
 
     color: #FCF4B6;    
 }
-
 footer {
+    box-sizing: border-box;
+    height: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +59,6 @@ footer {
     gap: 60px;
     background: #331436;
 }
-
 footer .socials {
     display: flex;
     justify-content: space-between;
@@ -99,262 +89,162 @@ footer .container h1 {
 
 
 .main-section {
-
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 30px 170px;
     gap: 60px;
-    
-    
-    background: #7A1745;
-    
-    
-    
-    }
+    background: #7A1745;    
+}
 .main-section .container {
-    
 display: flex;
 flex-direction: column;
 align-items: center;
 padding: 0px;
 gap: 24px;
-
-
 }
-
 .main-section .container h1 {
     width: 520px;
-height: 48px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-/* identical to box height, or 120% */
-text-align: center;
-
-color: #FFFFFF;
+    height: 48px;
+    font: 700 40px/48px 'Roboto', sans-serif;
+    color: #FFFFFF;
 }
-
 .main-section .container h1 strong {
-
     color: #FCF4B6;
 }
 .main-section .container p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-    
-width: 520px;
-height: 72px;
-    
-text-align: center;
-    
-color: #FFFFFF;
-
+    font: 400 16px/24px 'Roboto',sans-serif;
+    width: 520px;
+    height: 72px;        
+    text-align: center;
+    color: #FFFFFF;
 }
-
 .main-section img {
 display: flex;
 flex-direction: column;
 align-items: center;
 padding: 0px;
 gap: 24px;
-
 }
-
-
-
 .main-section button {
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font: 500 16px/24px 'Roboto',sans-serif;
+    text-align: center;
     padding: 12px;
-
     width: 240px;
     height: 48px;
     
     background: #CB4F57;
     border-radius: 8px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    border: none;
     color: #FCF4B6;
 }
 
-.section-2 {
 
+.section-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 60px 170px;
     gap: 60px;
-    isolation: isolate;
 }
 
 .section-2 .container {
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-    
 }
 .section-2 .container h1 {
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-color: #000000;
+    font: 900 40px/48px 'Roboto',sans-serif;
+    color: #000000;
+    margin: 0;
 }
 .section-2 .container p {
-
+    font: 500 16px/24px 'Roboto',sans-serif;
     width: 1100px;
     height: 48px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-    
     color: #020000;
 }
-
 .section-2 .container button {
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 12px;
+    font: 500 16px/24px 'Roboto',sans-serif;
+    text-align: center;
+    padding: 12px;
     gap: 12px;
-    
     width: 240px;
     height: 48px;
 
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-color: #FFFFFF;
-
-background: #331436;
-border-radius: 8px;
+    color: #FFFFFF;
+    background: #331436;
+    border-radius: 8px;
+    border:none
 
 }
-
-
 .section-2 ul {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
     gap: 40px;
 }
 .section-2 .row {
-
-
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     padding: 0px;
     gap: 40px;   
 }
-
 .section-2 .card {
-    
-box-sizing: border-box;
-
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-
-width: 340px;
-height: 420px;
-
-border: 1px solid #FFFFFF;
-border-radius: 6px;
-}
-
-.section-2 .card img {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
 
     width: 340px;
-    height: 340px;
+    height: 420px;
 
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+}
+.section-2 .card img {
+    width: 340px;
+    height: 340px;
     background: rgba(217, 217, 217, 0.5);
 
 }
 .section-2 .card .text-content {
+    
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 12px;
-    gap: 4px;
-
     width: 340px;
     height: 80px;
-
 }
 .section-2 .card .text-content h1{
-   
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    
-    
+   font: 400 16px/24px 'Roboto',sans-serif;
+   margin: 0;
     color: #331436;
 }
-
 .section-2 .card .text-content p {
-
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 28px;
-    /* identical to box height, or 140% */
-    
+    font: 600 20px/28px 'Roboto',sans-serif;
     color: #331436;
+    margin: 0;
     
 }
 
 
 .section-3 {
     display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 60px 170px;
-gap: 60px;
-
-
-background: rgba(252, 244, 182, 0.5);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 170px;
+    gap: 60px;
+    background: rgba(252, 244, 182, 0.5);
 }
-
 .section-3 .container {
     display: flex;
     flex-direction: column;
@@ -362,150 +252,94 @@ background: rgba(252, 244, 182, 0.5);
     padding: 0px;
     gap: 24px;
 }
-
 .section-3 .container h1 {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-/* identical to box height, or 120% */
-text-align: center;
-
-color: #331436;
-}
-
-.section-3 .container p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
+    font: 900 40px/48px 'Roboto',sans-serif;
     text-align: center;
-    
+    color: #331436;
+    margin: 0;
+}
+.section-3 .container p {
+    font: 570 16px/24px 'Roboto',sans-serif;
+    text-align: center;    
+    margin: 0;
     color: #331436;
 }
 
 .section-3 .container button {
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+font: 500 16px/24px 'Roboto',sans-serif;
+text-align: center;
 padding: 12px;
-
 width: 240px;
 height: 48px;
-
 background: #331436;
 border-radius: 8px;
+border:none;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
 color: #FFFFFF;
 }
-
 .section-3 ul {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
     gap: 40px;
-
-    
 }
-
 .section-3 ul .row {
-
 display: flex;
-flex-direction: row;
 align-items: flex-start;
 padding: 0px;
 gap: 40px;
 }
-
-
 .section-3 ul li {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 12px 0px;
     gap: 20px;
-    
-width: 245px;
-height: 204px;
-
+    width: 245px;
+    height: 204px;
 }
 .section-3 ul li .frame {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    
-  
-    
+    align-items: center;  
     width: 100px;
     min-width: 100px;
     height: 100px;
     min-height: 100px;
-    
     background: #331436;
     border-radius: 50px;
 }
-
 .section-3 ul li .frame img {
     margin: 0 auto;
     width: 48px;
     height: 48px;
 }
-
 .section-3 ul li .text-content h1 {
-
+    font: 500 20px/28px 'Roboto',sans-serif;
     width: 245px;
     height: 28px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 28px;
-    /* identical to box height, or 140% */
     text-align: center;
     color: #331436;
+    margin: 0;
 }
-
 .section-3 ul li .text-content p {
+    font: 400 16px/24px 'Roboto',sans-serif;
+    text-align: center;
     width: 245px;
     height: 24px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    text-align: center;
-    
     color: #331436;
 }
 
 
 .section-4 {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 60px 170px;
     gap: 60px;
-    isolation: isolate;
 }
 
 .section-4 .container{
@@ -514,142 +348,78 @@ height: 204px;
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-
 }
-
 .section-4 .container h1 {
-
+    font: 900 40px/48px 'Roboto',sans-serif;
     width: 520px;
     height: 48px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 48px;
-    /* identical to box height, or 120% */
-    
+    margin: 0;
     color: #331436;
 }
-
 .section-4 .container p {
+    font: 400 16px/24px 'Roboto',sans-serif;
     width: 520px;
     height: 24px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    
+    margin: 0;
     color: #331436;
 }
 
-.section-4 ul {
-
+.section-4 form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding: 0px;
+    margin: 0;
     gap: 40px;
     
     width: 520px;
     height: 268px;
 }
-
-.section-4 ul li {
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 0px;
-gap: 4px;
-}
-
-.section-4 ul li label {
-
-width: 520px;
-height: 20px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-
-color: #331436;
-}
-
-.section-4 ul li input {
-    box-sizing: border-box;
-
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 8px 12px;
-    gap: 4px;
-    
-    width: 520px;
-    height: 36px;
-    
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
-
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-/* identical to box height, or 143% */
-color: rgba(0, 0, 0, 0.5);
-}
-
-
-.section-4 ul li span {
-
-    width: 520px;
-    height: 16px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    /* identical to box height, or 133% */
-    
-    color: rgba(0, 0, 0, 0.5);
-}
-
-.section-4 ul li button {
-
-    gap: 12px;
-
-    width: 240px;
-    height: 48px;
-
+.section-4 form li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 12px;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+}
+.section-4 form li label {
+font: 700 14px/20px 'Roboto',sans-serif;
+color: #331436;
+}
+
+.section-4 form li input {
     
+    font: 400 14px/20px 'Roboto',sans-serif;
+    box-sizing: border-box;
+    width: 520px;
+    height: 36px;
+    padding: 8px 12px;
+    gap: 4px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.section-4 form li span {
+    font: 400 12px/16px 'Roboto',sans-serif;
+    width: 520px;
+    height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.section-4 form li button {
+    font: 500 16px/24px 'Roboto',sans-serif;    
+    text-align: center;
     width: 240px;
     height: 48px;
-    
+    gap: 12px;
+    padding: 12px;
+
+    color: #FFFFFF;
     background: #331436;
     border-radius: 8px;
-
-
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-color: #FFFFFF;
+    border: none;
+    
 }
