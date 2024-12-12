@@ -118,8 +118,8 @@ footer .container h1 {
     align-items: center;
     padding: 60px 170px;
     gap: 60px;
-    
-height: 746px;
+        
+    height: 746px;
     
     background: rgba(0, 0, 0, 0.1);
 }
@@ -145,7 +145,7 @@ height: 746px;
     
     width: 240px;
     min-width: 240px;
-    height: 626px;
+    height: 746px;
     
     background: #FFFFFF;
     border-radius: 8px;
@@ -162,7 +162,7 @@ height: 746px;
     
     width: 240px;
     min-width: 240px;
-    height: 626px;
+    height: 746px;
     
     background: #FFFFFF;
     border-radius: 8px;
@@ -178,7 +178,7 @@ gap: 10px;
 
 width: 240px;
 min-width: 240px;
-height: 626px;
+height: 746px;
 
 background: #FFFFFF;
 border-radius: 8px;
@@ -287,9 +287,6 @@ color: #EB9961;
     height: 15px;
 }
 
-
-
-
 .card-header .date {
 
     width: 46px;
@@ -329,8 +326,13 @@ color: #EB9961;
     height: 39px;
 }
 
+.card-footer .close-icon{
+    width: 20px;
+    height: 20px;
+    
+}
 .card-footer .users {
-
+    
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -343,7 +345,7 @@ color: #EB9961;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 2px;
     gap: 10px;
     
     width: 25px;
