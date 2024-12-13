@@ -8,8 +8,8 @@ desafio proposto: recriar três páginas, uma ferramenta de produtividade, mante
 
 ## 📺 Preview
 
-<img src="assets\images\readme\home.png"> <img src="assets\images\readme\login.png"  width="300" height="600">
-<img src="assets\images\readme\kanban.png"  width="300" height="600">
+<img src="assets\images\readme\home.png" width="300"> <img src="assets\images\readme\login.png"  width="300" >
+<img src="assets\images\readme\kanban.png" width="300"">
 
 <p align = "center">
 Feito  por Ruan Lourenço 
