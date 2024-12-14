@@ -24,7 +24,7 @@
       </nav>
     </header>
     <main class="kanban">
-      <div class="column">
+      <div id="todo-col" class="column">
         <h1 class="col-title">To Do</h1>
 
         <div class="card">
@@ -101,7 +101,7 @@
           </div>
         </div>
       </div>
-      <div class="column">
+      <div id="inProgress-col" class="column">
         <h1 class="col-title">In Progress</h1>
         <div class="card">
           <div class="card-header">
@@ -135,7 +135,7 @@
           </div>
         </div>
       </div>
-      <div class="column">
+      <div id="complete-col" class="column">
         <h1 class="col-title">Complete</h1>
         <div class="card">
           <div class="card-header">
@@ -176,6 +176,8 @@
           </div>
         </div>
       </div>
+
+      <button id="addCard" class="add-card">new</button>
     </main>
     <footer>
       <div class="socials">
@@ -202,5 +204,7 @@
         <h1>Terms of Service</h1>
       </div>
     </footer>
+
+    <script src="src/js/kanban.js"></script>
   </body>
 </html>
