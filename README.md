@@ -9,8 +9,11 @@ desafio proposto: recriar três páginas, uma ferramenta de produtividade, mante
 ## Features
 
 -imagens e butões reponsivos
+
 -tratamente de dados
+
 -redirecionameto de pagina
+
 -pagina de kanban com funcionalidade implementada
 
 ## 📺 Preview
