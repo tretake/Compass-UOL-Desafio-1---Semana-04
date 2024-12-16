@@ -22,18 +22,25 @@ submit.addEventListener("click" , (event) =>
     let namePass = false;
 
     if(email.value == "")
+    {
         emailValidationMessage.innerHTML = "campo não preenchido"
+        emailValidationMessage.className = "error-message"}
     else
     {
         if(email.value.match(ValidEmail))
             {emailValidationMessage.innerHTML = "";
                 emailPass =true;}
-        else
+        else{
             emailValidationMessage.innerHTML = "Email Invalido";
+            emailValidationMessage.className = "error-message"
+        }
     }
 
     if(userName.value === "")
+    {
         nameValidationMessage.innerHTML = "campo não preenchido";
+        nameValidationMessage.className = "error-message";
+    }
     else
     {
         namePass = true;
@@ -45,6 +52,11 @@ submit.addEventListener("click" , (event) =>
             localStorage.setItem('userName',userName.value);
             localStorage.setItem('UserEmail', email.value);
             console.log(localStorage);
+            const comfirmation = document.createElement('p');
+            comfirmation.className = 'comfimation-text';
+            comfirmation.innerHTML = "Email Registered";
+
+            event.target.parentElement.appendChild(comfirmation);
         }
 
 })

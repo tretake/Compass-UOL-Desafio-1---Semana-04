@@ -33,13 +33,16 @@ body{
 }
 
 .login-section .container h1 {
-    font: 700 40px/48px 'Roboto', sans-serif;
+    font: 900 40px/48px 'Roboto', sans-serif;
     color: #331436;
+    margin: 0;
 }
 .login-section .container p {
     width: 520px;
     font: 400 16px/24px 'Roboto',sans-serif;
     color: #331436;
+    margin: 0;
+    padding: 0;
 }
 
 .login-section form {
@@ -49,6 +52,7 @@ body{
     align-items: flex-start;
     padding: 0px;
     gap: 40px;
+    
 }
 
 .login-section form li {
@@ -99,6 +103,7 @@ body{
     width: 240px;
     height: 48px;
     background: #331436;
+    border: none;
     border-radius: 8px;
     color: #FFFFFF;
 }

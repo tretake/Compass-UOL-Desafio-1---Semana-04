@@ -90,8 +90,15 @@ gap: 24px;
     border-radius: 8px;
     border:none;
     cursor: pointer;
-
 }
+.section-2 .container button:hover {
+    
+    background: #752e7b;
+}
+
+
+
+
 .section-2 ul {
     display: flex;
     justify-content: center;
@@ -194,6 +201,11 @@ border:none;
 cursor: pointer;
 color: #FFFFFF;
 }
+.section-3 .container button:hover {
+    background: #752e7b;
+}
+
+
 .section-3 ul {
     display: flex;
     flex-direction: column;
@@ -332,7 +344,9 @@ color: #331436;
     border-radius: 6px;
     color: rgba(0, 0, 0, 0.5);
 }
-.section-4 form li span {
+
+
+.section-4 form li .validation-text {
     font: 400 12px/16px 'Roboto',sans-serif;
     width: 520px;
     height: 16px;
@@ -353,6 +367,10 @@ color: #331436;
     border: none;
     cursor: pointer;
 }
+.section-4 form li button:hover {
+    background: #752e7b;
+}
+
 
 
 .header-nav a button:hover {
@@ -364,3 +382,22 @@ color: #331436;
 button:hover {
     background-color: #ff9844; 
   }
+
+
+
+.comfimation-text{
+padding: 0;
+margin: 0;
+color: forestgreen;
+font: 400 12px/16px 'Roboto',sans-serif;
+}
+
+
+.error-message{
+    font: 400 12px/16px 'Roboto',sans-serif;
+    width: 520px;
+    height: 16px;
+    margin: 0px 0px 0px 20px;
+    color: #CB4F57;
+
+}
