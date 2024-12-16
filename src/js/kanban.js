@@ -1,16 +1,6 @@
-let buttonAdd = document.getElementById("addCard");
 let todoCol = document.getElementById("todo-col");
 
 const container = document.querySelector(".kanban"); 
-
-
-
-buttonAdd.addEventListener("click" , function() {
-    
-    
-
-})
-
 
 
 container.addEventListener("click", function (event) {
@@ -68,10 +58,6 @@ formTarefa.addEventListener("submit", function (event) {
     ).map((opt) => opt.value);
   
     
-    
-
-
-
 
     const card = document.createElement('div');
     card.className = 'card';
@@ -141,15 +127,6 @@ formTarefa.addEventListener("submit", function (event) {
     card.appendChild(cardFooter); 
 
     todoCol.appendChild(card); buttonX = document.querySelectorAll(".close-icon");
-
-
-
-
-
-
-
-
-
 
   
     modal.style.display = "none";
