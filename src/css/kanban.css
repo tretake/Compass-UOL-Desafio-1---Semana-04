@@ -48,8 +48,15 @@ header .header-nav img{
 .add-card {
     position: absolute;
     right: 30px;
-    top: 776px;
-    
+    top: 756px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+
+    font: 500 16px/24px 'Roboto',sans-serif;
 }
 
 
@@ -250,6 +257,127 @@ height: 127px;
     text-align: center;
     
     color: #FFFFFF;
-    
-
 }
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; 
+  }
+  
+  
+  .modal-conteudo {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    position: relative;
+    animation: slideIn 0.4s ease; 
+  }
+  
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+  .fechar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s ease;
+  }
+  
+  .fechar:hover {
+    color: #d00;
+  }
+  
+
+  .modal-conteudo h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+
+  form label {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+ 
+  form input,
+  form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #555;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus,
+  form select:focus {
+    border-color: #801e8f; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(128, 30, 143, 0.5);
+  }
+  
+ 
+  form button {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #801e8f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #6b177a;
+  }
+  
+  form small {
+    font-size: 12px;
+    color: #888;
+    text-align: left;
+    margin-top: -10px;
+  }
+  
+  

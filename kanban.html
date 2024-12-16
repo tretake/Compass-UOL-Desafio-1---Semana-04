@@ -177,7 +177,47 @@
         </div>
       </div>
 
-      <button id="addCard" class="add-card">new</button>
+      <button id="addCard" class="add-card">New Card</button>
+
+      <div id="modal" class="modal">
+        <div class="modal-conteudo">
+          <span id="fecharModal" class="fechar">&times;</span>
+          <h2>Nova Tarefa</h2>
+          <form id="formTarefa">
+            <label for="prioridade">Prioridade:</label>
+            <select id="prioridade" name="prioridade" required>
+              <option value="" disabled selected>Escolha uma prioridade</option>
+              <option value="High">High</option>
+              <option value="Mid">Mid</option>
+              <option value="Low">Low</option>
+            </select>
+            <br /><br />
+
+            <label for="tarefa">Tarefa:</label>
+            <input
+              type="text"
+              id="tarefa"
+              name="tarefa"
+              placeholder="Descreva a tarefa"
+              required
+            />
+            <br /><br />
+
+            <label for="participantes">Participantes:</label>
+            <select id="participantes" name="participantes" multiple required>
+              <option value="IT,#801e8f">IT</option>
+              <option value="JS,#2e4b83">JS</option>
+              <option value="NS,#d92b93">NS</option>
+              <option value="LC,#1a712d">LC</option>
+              <option value="GM,#af4a00">GM</option>
+            </select>
+            <small>Segure Ctrl para selecionar várias opções</small>
+            <br /><br />
+
+            <button type="submit">Adicionar Tarefa</button>
+          </form>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="socials">
