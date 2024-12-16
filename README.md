@@ -6,6 +6,13 @@ primeiro desafio estágio Compass UOL . com intuito de colocar os conhecimentos 
 
 desafio proposto: recriar três páginas, uma ferramenta de produtividade, mantendo-se fiel ao seu design original usando HTML, CSS e JS.
 
+## Features
+
+-imagens e butões reponsivos
+-tratamente de dados
+-redirecionameto de pagina
+-pagina de kanban com funcionalidade implementada
+
 ## 📺 Preview
 
 <img src="assets\images\readme\home.png" width="300"> <img src="assets\images\readme\login.png"  width="300" > <img src="assets\images\readme\kanban.png" width="300">
