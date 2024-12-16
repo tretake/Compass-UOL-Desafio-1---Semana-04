@@ -1,4 +1,8 @@
-let todoCol = document.getElementById("todo-col");
+const todoCol = document.getElementById("todo-col");
+const abrirModal = document.getElementById("addCard");
+const modal = document.getElementById("modal");
+const fecharModal = document.getElementById("fecharModal");
+
 
 const container = document.querySelector(".kanban"); 
 
@@ -28,10 +32,6 @@ container.addEventListener("click", function (event) {
 });
 
 
-
-const abrirModal = document.getElementById("addCard");
-const modal = document.getElementById("modal");
-const fecharModal = document.getElementById("fecharModal");
 
 abrirModal.addEventListener("click", function() {
   modal.style.display = "flex"; 
